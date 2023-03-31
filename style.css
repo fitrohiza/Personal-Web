@@ -5,6 +5,7 @@
 
 /* Menu style */
 .navbar-menu {
+  position: fixed;
   display: flex;
   list-style: none;
   margin: 0;
