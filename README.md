@@ -7,7 +7,7 @@
 
 ---
 
-<p align="center">Personal website yang dibuat menggunakan HTML dan CSS
+<p align="center">Personal website dibuat menggunakan HTML dan CSS
     <br> 
 </p>
 
