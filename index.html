@@ -5,83 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitroh - Personal Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <section id="home">
-      <nav class="navbar">
-        <h1>F I T</h1>
-        <ul class="navbar-menu">
+    <header>
+      <a class="logo">
+        <img src="assets/img/fimLogo.png" alt="" />
+      </a>
+      <nav>
+        <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Works">Works</a></li>
-          <li><a href="#Hobby">Hobby</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="license.html">License</a></li>
         </ul>
-
-        <div class="content">
-          <h1>Fitroh Izatul Malkiyah</h1>
-          <p>
-            I'm Interesting in Mobile Development and Frontend Web Development
-          </p>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <div class="container">
+          <h1>Hi, I'm Fitroh Izatul Malkiyah</h1>
+          <p>I'm Interested in Mobile Apps and Frontend Web Development</p>
           <div class="social-icons">
-            <a href="https://github.com/fitrohiza"
+            <a href="https://github.com/fitrohiza" target="_blank"
               ><i class="fa fa-github"></i
             ></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/fitrohiza/" target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a
+              href="https://instagram.com/only.fiit?igshid=MTIzZWQxMDU="
+              target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
           </div>
         </div>
-      </nav>
-    </section>
-
-    <section id="About">
-      <div id="container">
-        <h1>About</h1>
-        <br />
-        <h3>Hai, Saya Fitroh Izatul Malkiyah</h3>
-        <br />
-        <p>Saya seorang Mahasiswi di salah satu Universitas di Purwokerto</p>
-        <p>
-          saya sangat tertarik dengan dunia programming terutama Mobile Apps dan
-          Web Development
-        </p>
-        <p>Saya memiliki pengalaman dalam membuat sebuah project</p>
-        <p>
-          Saat ini, saya sedang belajar React Js dan Flutter untuk meningkatkan
-          kemampuan saya.
-        </p>
+        <div class="image">
+          <img src="assets/img/me.png" alt="" />
+        </div>
       </div>
-    </section>
-
-    <section id="Works">
-      <h1>Works</h1>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x100" alt="Gambar" />
-        <h2>SPKita Solusi</h2>
-        <p>
-          Adalah aplikasi yang dikembangkan menggunakan Codeigniter Versi 4. Ini
-          merupakan aplikasi Sistem Pendukung Keputusan penerima Beasiswa
-          Pendidikan di Amikom
-        </p>
-      </div>
-    </section>
-
-    <section id="Hobby">
-        <div id="container">
-            <h1>Hobby</h1>
-            <br />
-            <h3>Saya memiliki beberapa Hobby</h3>
-            <br />
-            <ul>
-                <li>Membaca</li>
-                <li>Mendengarkan Musik</li>
-                <li>Traveling</li>
-            </ul>
-          </div>
-    </section>
+    </main>
   </body>
 </html>
