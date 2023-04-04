@@ -7,6 +7,16 @@
   background-color: #0C0A16;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 /* header style */
 header {
   position: fixed;
@@ -69,6 +79,7 @@ nav ul li a:active{
   justify-content: space-between;
   align-items: center;
   margin-top: 10%;
+  margin-bottom: 15%;
   padding-left: 14.5rem;
   padding-right: 14.5rem;
   text-align: start;
@@ -176,6 +187,30 @@ nav ul li a:active{
 }
 /* portfolio style end */
 
+/* footer style */
+footer {
+  margin-top: auto;
+  height: 30px;
+  background-color: #120f22;
+  color: #b5d1e7;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-info {
+  font-size: 14px;
+  background-color: #120f22;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-info p {
+  background-color: #120f22;
+  margin: 0;
+}
+
+/* footer style end */
 
 @media only screen and (max-width: 768px) {
   .content {
