@@ -25,7 +25,6 @@ header {
   display: flex;
   background-color: #0C0A16;
   justify-content: space-around;
-  align-items: center;
   padding-top: 2rem; 
   padding-bottom: 1rem;
 }
@@ -106,14 +105,14 @@ nav ul li a:active{
 
 
 /* about style */
-.about, .portfolio, .contact{
+.about, .portfolio, .Article{
   margin-top: 10rem;
   padding-left: 14.5rem;
   padding-right: 14.5rem;
   color: #95b3ca;
 }
 
-.about h2, .portfolio h2, .contact h2{
+.about h2, .portfolio h2, .Article h2{
   margin-bottom: 20px;
   color: #1BB3AC;
 }
