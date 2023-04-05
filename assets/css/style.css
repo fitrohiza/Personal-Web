@@ -17,7 +17,9 @@ main {
   flex: 1;
 }
 
-/* header style */
+/* ------------------- */
+/* header style start */
+/* ------------------- */
 header {
   position: fixed;
   top: 0;
@@ -27,6 +29,7 @@ header {
   justify-content: space-around;
   padding-top: 2rem; 
   padding-bottom: 1rem;
+  z-index: 1;
 }
 
 .logo img{
@@ -49,10 +52,14 @@ nav ul li a:hover,
 nav ul li a:active{
   color: #2E6BB9;
 }
+/* ------------------- */
 /* header style end */
+/* ------------------- */
 
 
-/* main home style */
+/* ------------------- */
+/* main home style start */
+/* ------------------- */
 .social-icons {
   margin-top: 20px;
 }
@@ -101,10 +108,14 @@ nav ul li a:active{
   width: 200px;
   margin-top: 100px;
 }
-/* main home style end */
+/* ------------------- */
+/* main home style start */
+/* ------------------- */
 
 
-/* about style */
+/* ------------------- */
+/* about style start */
+/* ------------------- */
 .about, .portfolio, .Article{
   margin-top: 10rem;
   padding-left: 14.5rem;
@@ -120,9 +131,13 @@ nav ul li a:active{
 .about p{
   margin-bottom: 40px;
 }
+/* ------------------- */
 /* about style end */
+/* ------------------- */
 
-/* portfolio style */
+/* ------------------- */
+/* portfolio style start */
+/* ------------------- */
 .portfolio-container {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -184,9 +199,13 @@ nav ul li a:active{
   margin-left: 10px;
   background-color: transparent;
 }
+/* ------------------- */
 /* portfolio style end */
+/* ------------------- */
 
-/* footer style */
+/* ------------------- */
+/* footer style start */
+/* ------------------- */
 footer {
   margin-top: auto;
   height: 30px;
@@ -208,8 +227,119 @@ footer {
   background-color: #120f22;
   margin: 0;
 }
-
+/* ------------------- */
 /* footer style end */
+/* ------------------- */
+
+/* ------------------- */
+/* article style start */
+/* ------------------- */
+
+.articles-intro {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.articles-intro h1 {
+  font-size: 24px;
+  color: #1BB3AC;
+}
+
+/* article container */
+
+.articles {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* article card */
+
+.article-card {
+  height: 400px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.article-card:hover {
+  border-bottom: 2px solid #95b3ca;
+  box-sizing: border-box;
+}
+
+.letter-spacing {
+  letter-spacing: .05em;
+}
+
+/* image thumbnail */
+
+.article-image-default {
+  background-image: url("../img/article/not-available.jpg");
+  background-size: cover;
+  height: 60%;
+  position: relative;
+}
+
+.article-image-thumbnail {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.article-category {
+  background: white;
+  padding: 2px 10px;
+  border-radius: 10px;
+  color: #2E6BB9;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* article content */
+
+.article-content-area {
+  padding: 5px;
+}
+
+.article-timestamp {
+  font-size: 12px;
+  font-weight: 300;
+  color: #b5d1e7;
+}
+
+h2.article-title {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #95b3ca;
+}
+
+.article-link {
+  padding: 5px;
+  text-align: end;
+}
+
+.article-link a {
+  color: #1BB3AC;
+  background-image: linear-gradient(to bottom, transparent 90%, #1BB3AC 0);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition: background-size .5s ease;
+      
+}
+
+.article-link a:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+/* ------------------- */
+/* article style end */
+/* ------------------- */
 
 @media only screen and (max-width: 768px) {
   .content {
