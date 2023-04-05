@@ -191,6 +191,31 @@ header {
 /* header style end */
 /* ------------------- */
 
+/* --------------------- */
+/* container style start */
+/* --------------------- */
+.container {
+  max-width: 80%;
+  width: 100%;
+  width: calc(100% - 1rem);
+  margin: 50px auto;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.title-page {
+  margin-top: 50px;
+  padding: 20px;
+  color: #1BB3AC;
+  text-align: center;
+}
+/* ------------------- */
+/* container style end */
+/* ------------------- */
+
+
 
 /* ------------------- */
 /* main home style start */
@@ -266,6 +291,17 @@ header {
 .about p{
   margin-bottom: 40px;
 }
+
+.about-content h2, h3{
+  margin-bottom: 20px;
+  color: #1BB3AC;
+}
+
+.about-content p {
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #95b3ca;
+}
 /* ------------------- */
 /* about style end */
 /* ------------------- */
@@ -283,7 +319,7 @@ header {
 .portfolio-card {
   display: flex;
   border-radius: 5px;
-  box-shadow: 0 2px 5px #2E6BB9;
+  box-shadow: 0 2px 5px rgba(46, 107, 185, 0.5);
   margin-bottom: 40px;
   overflow: hidden;
 }
@@ -295,6 +331,7 @@ header {
 
 .portfolio-info {
   padding: 20px;
+  color: #95b3ca;
 }
 
 .portfolio-info h3 {
@@ -494,5 +531,12 @@ h2.article-title {
     margin-top: 10rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .portfolio-card img {
+    width: 120px;
+    height: auto;
+  }
+  .button {
+    margin: 1px;
   }
 }
